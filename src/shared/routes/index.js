@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { useQuery } from "@apollo/react-hooks";
-
 import DefaultSwitch from "./default/index";
 import TrainerSwitch from './trainer';
 import UserSwitch from './user/index'

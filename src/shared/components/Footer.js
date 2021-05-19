@@ -5,8 +5,6 @@ import '../css/fonts.css';
 import '../css/fontcolor.css';
 
 import react from '../images/react.webp';
-import apollo from '../images/apollo.webp';
-import graphql from '../images/graphql.webp';
 import instagram from '../images/instagram.webp';
 import facebook from '../images/facebook.webp';
 import linkedin from '../images/linkedin.webp';

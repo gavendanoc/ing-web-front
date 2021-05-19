@@ -4,7 +4,6 @@ import box from '../../../../shared/images/box.webp';
 
 import axios from 'axios';
 
-import RoutinesHome from '../components/RoutinesHome';
 import CreateRoutine from '../components/CreateRoutine';
 
 import CardRoutine from '../components/CardRoutine';
