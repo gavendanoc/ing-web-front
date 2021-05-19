@@ -5,7 +5,6 @@ import UserRoutineCard from '../components/UserRoutineCard';
 import endpoint from '../../../../server/server';
 
 const UserRoutinesHomePage = () => {
-  const [filter, setFilter] = useState(false);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
   const [respuestaAPI, setRespuestaAPI] = useState(null);

@@ -110,9 +110,6 @@ const LoginForm = (props) => {
             </Button>
                 </Form.Item>
             </Form>
-            <button type="button" className="btn btn-link FontBlackLink" onClick={() => { props.changePassHandler() }}>
-                Olvidaste tu contraseña?
-            </button>
         </>
     )
 }
