@@ -2,6 +2,7 @@ import React, { useState, useEffect} from 'react';
 
 import axios from 'axios';
 import { Card, Button } from 'antd';
+import endpoint from '../../../../server/server';
 
 const UserRoutineCard = (props) => {
   const [error, setError] = useState(null);
@@ -21,7 +22,7 @@ const UserRoutineCard = (props) => {
       // Solo es válido para 'PUT', 'POST', 'DELETE y 'PATCH'
       const consulta = await axios(
         { method: 'POST', 
-          url: "http://localhost:5000/reservation",
+          url:  `${endpoint}/reservation`,
           data: {
             id_class: id_clase,
             id_customer: id_socio

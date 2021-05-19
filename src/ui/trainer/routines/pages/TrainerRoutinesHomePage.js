@@ -3,6 +3,7 @@ import React, { useState, useEffect} from 'react';
 import box from '../../../../shared/images/box.webp';
 
 import axios from 'axios';
+import endpoint from '../../../../server/server';
 
 import CreateRoutine from '../components/CreateRoutine';
 
@@ -27,7 +28,7 @@ const TrainerRoutinesHome = (props) => {
             // Solo es válido para 'PUT', 'POST', 'DELETE y 'PATCH'
             const consulta = await axios(
               { method: 'GET', 
-                url: "http://localhost:5000/classinfo"
+                url: `${endpoint}/classinfo`
               });
             setRespuestaAPI(consulta);
         } catch (error) {

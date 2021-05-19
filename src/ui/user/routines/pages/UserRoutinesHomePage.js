@@ -2,6 +2,7 @@ import React, { useState, useEffect} from 'react';
 
 import axios from 'axios';
 import UserRoutineCard from '../components/UserRoutineCard';
+import endpoint from '../../../../server/server';
 
 const UserRoutinesHomePage = () => {
   const [filter, setFilter] = useState(false);
@@ -24,7 +25,7 @@ const UserRoutinesHomePage = () => {
             // Solo es válido para 'PUT', 'POST', 'DELETE y 'PATCH'
             const consulta = await axios(
               { method: 'POST', 
-                url: "http://localhost:5000/classinfo/forcustomer",
+                url: `${endpoint}/classinfo/forcustomer`,
                 data: {
                   "id_customer" : profile.id_socio
                 }

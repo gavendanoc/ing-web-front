@@ -1,8 +1,7 @@
 import React, { useState, useEffect} from 'react';
 
-import box from '../../../../shared/images/box.webp';
-
 import axios from 'axios';
+import endpoint from '../../../../server/server';
 
 import CardRoutine from '../components/CardRoutine';
 
@@ -28,7 +27,7 @@ const UserRegisteredClasesHome = (props) => {
             // Solo es válido para 'PUT', 'POST', 'DELETE y 'PATCH'
             const consulta = await axios(
               { method: 'GET', 
-                url: `http://localhost:5000/classinfo/customer/${id_socio}`
+                url: `${endpoint}/classinfo/customer/${id_socio}`
               });
             setRespuestaAPI(consulta);
         } catch (error) {

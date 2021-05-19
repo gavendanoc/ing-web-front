@@ -3,6 +3,7 @@ import React from 'react';
 
 import CreateRoutineForm from './CreateRoutineForm';
 import axios from 'axios';
+import endpoint from '../../../../server/server';
 
 const CreateRoutine = (props) => {
 
@@ -11,7 +12,7 @@ const CreateRoutine = (props) => {
         try {
             const create = await axios(
                 { method: 'POST', 
-                  url: "http://localhost:5000/class",
+                  url: `${endpoint}/class`,
                   data: {
                     id_staff: JSON.parse(localStorage.getItem('data')).id_personal,
                     name: values.name,

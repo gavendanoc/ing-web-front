@@ -4,6 +4,7 @@ import exercise_girl from '../../../shared/images/exercise_girl.webp';
 
 import { useHistory, Redirect} from 'react-router-dom';
 import axios from 'axios';
+import endpoint from '../../../server/server';
 
 import { Form, Input, Button, Alert} from 'antd';
 
@@ -54,7 +55,7 @@ const LoginForm = (props) => {
     const buttonLogin = (values) => {
         setAccesoAPI({ 
             tipo: 'POST', 
-            url: 'http://localhost:5000/user/login', 
+            url: `${endpoint}/user/login`, 
             datos:{ email: values.Email, password: values.Password }});
     }
 
