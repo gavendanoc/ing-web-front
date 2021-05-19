@@ -1,0 +1,35 @@
+.Maincolor {
+    background-color: #ffbc02;
+}
+
+.Logocolor {
+    background-color: #f1c512;
+}
+
+.DarkColor {
+    background-color: #5d6d7c;
+}
+
+.DarkMaincolor {
+    background-color: #e3a765;
+}
+
+.RealBlackColor {
+    background-color: black;
+}
+
+.BlackColor {
+    background-color: #231F20 !important;
+}
+
+.Background {
+    background-color: #fafafa !important;
+}
+
+.WhiteColor {
+    background-color: white !important;
+}
+
+.MainGradient {
+    background: radial-gradient(circle, rgba(255,210,21,1) 16%, rgba(200,131,62,1) 100%);
+}
