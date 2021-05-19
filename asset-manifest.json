@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/ing-web-front/static/css/main.724c128a.chunk.css",
+    "main.js": "/ing-web-front/static/js/main.d737c446.chunk.js",
+    "main.js.map": "/ing-web-front/static/js/main.d737c446.chunk.js.map",
+    "runtime-main.js": "/ing-web-front/static/js/runtime-main.051947ef.js",
+    "runtime-main.js.map": "/ing-web-front/static/js/runtime-main.051947ef.js.map",
+    "static/css/2.00bb4513.chunk.css": "/ing-web-front/static/css/2.00bb4513.chunk.css",
+    "static/js/2.ae6db8aa.chunk.js": "/ing-web-front/static/js/2.ae6db8aa.chunk.js",
+    "static/js/2.ae6db8aa.chunk.js.map": "/ing-web-front/static/js/2.ae6db8aa.chunk.js.map",
+    "index.html": "/ing-web-front/index.html",
+    "static/css/2.00bb4513.chunk.css.map": "/ing-web-front/static/css/2.00bb4513.chunk.css.map",
+    "static/css/main.724c128a.chunk.css.map": "/ing-web-front/static/css/main.724c128a.chunk.css.map",
+    "static/js/2.ae6db8aa.chunk.js.LICENSE.txt": "/ing-web-front/static/js/2.ae6db8aa.chunk.js.LICENSE.txt",
+    "static/media/blacklogo.74e0641f.webp": "/ing-web-front/static/media/blacklogo.74e0641f.webp",
+    "static/media/box.18886521.webp": "/ing-web-front/static/media/box.18886521.webp",
+    "static/media/exercise_girl.4bcb8077.webp": "/ing-web-front/static/media/exercise_girl.4bcb8077.webp",
+    "static/media/facebook.e5a7c9a1.webp": "/ing-web-front/static/media/facebook.e5a7c9a1.webp",
+    "static/media/fitness_girl.ba1eed4e.webp": "/ing-web-front/static/media/fitness_girl.ba1eed4e.webp",
+    "static/media/instagram.12e6a48b.webp": "/ing-web-front/static/media/instagram.12e6a48b.webp",
+    "static/media/landing_page.b6a19b8c.webp": "/ing-web-front/static/media/landing_page.b6a19b8c.webp",
+    "static/media/linkedin.7d5cb304.webp": "/ing-web-front/static/media/linkedin.7d5cb304.webp",
+    "static/media/login_side.7387b483.webp": "/ing-web-front/static/media/login_side.7387b483.webp",
+    "static/media/profile_logo.41e590a2.webp": "/ing-web-front/static/media/profile_logo.41e590a2.webp",
+    "static/media/react.f1f134cb.webp": "/ing-web-front/static/media/react.f1f134cb.webp",
+    "static/media/register_side.ed507c69.webp": "/ing-web-front/static/media/register_side.ed507c69.webp",
+    "static/media/running_people.27b82be6.webp": "/ing-web-front/static/media/running_people.27b82be6.webp",
+    "static/media/trainer1.9503f711.webp": "/ing-web-front/static/media/trainer1.9503f711.webp",
+    "static/media/trainer2.2810f701.webp": "/ing-web-front/static/media/trainer2.2810f701.webp",
+    "static/media/trainer3.4eee6ade.webp": "/ing-web-front/static/media/trainer3.4eee6ade.webp",
+    "static/media/user1.908bc978.webp": "/ing-web-front/static/media/user1.908bc978.webp",
+    "static/media/user2.11bca51e.webp": "/ing-web-front/static/media/user2.11bca51e.webp",
+    "static/media/user3.dd6a397c.webp": "/ing-web-front/static/media/user3.dd6a397c.webp",
+    "static/media/whitelogo.3b32350c.webp": "/ing-web-front/static/media/whitelogo.3b32350c.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.051947ef.js",
+    "static/css/2.00bb4513.chunk.css",
+    "static/js/2.ae6db8aa.chunk.js",
+    "static/css/main.724c128a.chunk.css",
+    "static/js/main.d737c446.chunk.js"
+  ]
+}
