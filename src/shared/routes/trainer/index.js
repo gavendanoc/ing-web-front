@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route, Redirect, HashRouter} from 'react-router-dom';
 
 import TrainerHomePage from "../../../ui/trainer/home/TrainerHomePage";
 import TrainerProfilePage from '../../../ui/trainer/profile/pages/TrainerProfilePage';
